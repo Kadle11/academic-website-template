@@ -1,8 +1,8 @@
 ---
-title: "Software"
+title: "Code"
 layout: gridlay
 sitemap: false
-permalink: /software/
+permalink: /code/
 ---
 
 <style>
@@ -34,20 +34,88 @@ iframe {
 }
 </style>
 
-## Software
+### Performance Analysis
 
 <div class="jumbotron">
 <div class="row align-items-end">
 <div class="col-md-12 col-sm-12">
-<h4><b>Example Software</b></h4>
-<a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a>
-<a href="https://github.com" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
-<a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+<h4><b>Jaeger Aggregator</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<a href="https://github.com/Kadle11/JaegerRequestAnalysis" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a>  -->
 
-<b>Authors:</b>
-<i>Example authors</i>
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
 
-Example software description.
+<ul>
+<li>Tool to help analyze time spent in each process recorded by jaegertracing/jaeger:all-in-one container.</li>
+<li>Code retrieves multiple requests and computes cumulative metrics unavailable on Jaeger.</li>
+<li>Helps determine performance bottlenecks in the latency profile of an application.</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Configurable CPU Heatmap Generator</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<a href="https://github.com/Kadle11/CPU_Heatmap" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a>
+<!-- <a href="{{ site.url }}{{ site.baseurl }}/papers/example_proceeding.pdf" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a>  -->
+
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
+
+<ul>
+<li>Tool to help visualize CPU utilization for any workload.</li>
+<li>Code retrieves data using linux SAR and visualizes data using Python's Seaborn Library.</li>
+</ul>
+
+</div>
+</div>
+</div>
+
+### Systems/Applications
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Distributed Fault-Tolerant Sharded KV Store</b></h4>
+<!-- <a href="https://example.com" target="_blank"><button class="btn btn-success btn-sm">WEBSITE</button></a> -->
+<!-- <a href="https://github.com/Kadle11/CPU_Heatmap" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a> -->
+<a href="/reports/sharded_kv_store.pdf" target="_blank"><button class="btn btn-danger btn-sm">DESIGN DOC</button></a> 
+
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
+
+<ul>
+<li> Sharded KV Store that supports shard reconfiguration and cross-shard transactions.</li>
+<li> Shards are replicated across multiple servers in a ‘Shard-Group’ that uses Paxos to maintain linearizability. </li>
+<li> Shard reconfigurations balance load on Shard-Groups and support the addition/removal of replica groups. </li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div class="row align-items-end">
+<div class="col-md-12 col-sm-12">
+<h4><b>Dynamic Resource Allocation for Microservice Applications</b></h4>
+<a href="/reports/dynamic_alloc_ppt.pdf" target="_blank"><button class="btn btn-success btn-sm">SLIDES</button></a>
+<!-- <a href="https://github.com/Kadle11/CPU_Heatmap" target="_blank"><button class="btn btn-info btn-sm">GIT</button></a> -->
+<a href="/reports/dynamic_alloc.pdf" target="_blank"><button class="btn btn-danger btn-sm">DESIGN DOC</button></a> 
+
+<!-- <b>Authors:</b>
+<i>Example authors</i> -->
+
+<ul>
+<li> Built a pipeline to identify SLO violations based on the <a href="https://www.usenix.org/conference/osdi20/presentation/qiu" target="_blank"> FIRM paper </a>. </li>
+<li> Critical Component Extractor determines probable microservices responsible for SLO violations. </li>
+<li> AIMD and RL-based agents reallocate CPU shares on the fly to mitigate the SLO violations </li>
+</ul>
 
 </div>
 </div>

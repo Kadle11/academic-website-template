@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Teaching"
 layout: gridlay
 sitemap: false
@@ -7,6 +7,8 @@ permalink: /teaching/
 
 ## Teaching
 
-* Introduction to Physics (1961--63) [Textbook here!](https://www.feynmanlectures.caltech.edu/)
+* Spring 2020: Cloud Computing - Teaching Assistant
+* Spring 2022: Distributed Computing (CS 7210) - Teaching Assistant
+* Fall 2022: Distributed Computing (CS 7210) - Teaching Assistant
 
-
+ -->

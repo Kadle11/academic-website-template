@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Vishal Rao
+email: vrao79 [at] gatech [dot] edu
+description: CS Ph.D. Student at Georgia Tech
 baseurl: ""
 url: ""
 
@@ -12,28 +12,28 @@ url: ""
 
 # Footer info
 affiliation: >
-    Richard Feynman<br/>
-    Professor of Physics<br/>
-    California Institute of Technology
+    Vishal Rao<br/>
+    School of Computer Science<br/>
+    Georgia Institute of Technology<br/>
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  Klaus Computing Building<br/>
+  266 Ferst Drive NW<br/>
+  Atlanta, GA 30332<br/>
 
 contact: >
-    <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-    <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+  Email: vrao79 [at] gatech [dot] edu<br/>
+  Office: KACB 3110<br/>
 
 # Pages shown in navbar
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  # - name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
+  - name: code
+  - name: travel
+  # - name: teaching
 
 include:
   - .htaccess
@@ -63,8 +63,8 @@ plugins: ['jekyll/scholar']
 
 scholar:
 
-  last_name: Doe
-  first_name: [John]
+  last_name: Rao
+  first_name: [Vishal]
 
   style: citesty
   locale: en

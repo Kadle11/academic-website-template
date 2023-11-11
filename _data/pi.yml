@@ -1,21 +1,21 @@
-- name: Dr. Richard Feynman
-  photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+- name: Vishal Rao
+  photo: kadle11.jpg
+  info: CS Ph.D. Student, Georgia Tech
+  linkedin: https://www.linkedin.com/in/vishal-rao11/
+  github: https://github.com/kadle11
+  # researchgate: https://www.researchgate.net/
+  scholar: https://scholar.google.com/citations?user=_gD7bPUAAAAJ
   cv: cv/cv.pdf
   # Change the number below to the number of "educations" you have (up to 6)
   number_educ: 2
-  education1: "(1942) Ph.D. Physics, Princeton University"
-  education2: "(1939) B.S. Physics, Massachusetts Institute of Technology"
+  education1: "(2023) M.S. Computer Science, Georgia Tech"
+  education2: "(2020) B.Tech. Computer Science, PES University"
   # education3: 
   # education4: 
   # education5: 
   # education6: 
-  education1short: (1942) Ph.D. Physics, Princeton
-  education2short: (1939) B.S. Physics, MIT
+  education1short: (2023) M.S. CS, Georgia Tech
+  education2short: (2020) B.Tech. CS, PES University
   # education3short: 
   # education4short: 
   # education5short: 
