@@ -153,5 +153,35 @@ var addressPoints = [
     "Ksamil, Albania",
     39.7701379,
     20.0037922
+  ],
+  [
+    "Tempe, AZ",
+    33.4255117,
+    -111.9400164
+  ],
+  [
+    "Pisa, Italy",
+    43.7159395,
+    10.4018624
+  ],
+  [
+    "Naples, Italy",
+    40.8358846,
+    14.2487679
+  ],
+  [
+    "Brussels, Belgium",
+    50.8550018,
+    4.3512333761166175
+  ],
+  [
+    "Amsterdam, Netherlands",
+    52.3730796,
+    4.8924534
+  ],
+  [
+    "Vaduz, Liechtenstein",
+    47.1392862,
+    9.5227962
   ]
 ];
